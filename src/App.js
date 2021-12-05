@@ -12,7 +12,7 @@ import Footer from './Component/Footer'
 function App() {
   
   const color1 = 'rgb(49, 21, 115)';//rgba(255, 255, 255,1)
-  const  card = 'rgb(255, 255, 255,0.1)';//rgba(0, 0, 0,0.5)
+  
   
   const color2= 'rgba(255, 255, 255,1)';//rgb(49, 21, 115)
   

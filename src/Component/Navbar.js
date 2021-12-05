@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import { Nav, NavItem, NavLink} from "reactstrap";
-import SocialIcon from './SocialIcon';
+
 import Data from './data/data.json';
 import './Header.css';
 const Navbar =(props)=>{
