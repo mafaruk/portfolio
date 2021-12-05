@@ -1,0 +1,174 @@
+{
+    "name":"Mafaruk Bagwan",
+    "position":"Full Stack Developer",
+    "degree":"Bachelor of Engineering in Computer Science & Engineering",
+    "navigation":["About Me", "Work Experiance", "Education", "Projects", "Certification & Achivements"],
+    "work":[
+            {
+                "org_name":"Wolters Kluwer",
+                "position":"Product Software Engineering I",
+                "time_span":"April 2021 - Present",
+                "description":["Designing & Implementing robust and efficient Solutions while following the best practices.",
+                "Analyzed and fine tuned multiple areas in project,(SonarQube) Contributed in improving efficiency and Security of the services.",
+                "Working with Cross functioning teams, Building CI/CD flows for automating testing, versioning and release."]
+            },
+
+            {
+                "org_name":"AXA Business Services",
+                "position":"Associate",
+                "time_span":"September 2019 - January 2021",
+                "description":["Achieved automation in data loading tasks by migrating to data feeds from various data vendors like Bloomberg, Factset, MSCI, JP morgan, FTSE etc., this has reduced manual work done by 24%.",
+                "Developed complex SQL queries and fine-tuned stored procedures for data cleaning, data transformation, quality checks, database objects creation.",
+                "Assisted senior executives, analysts and other stakeholders, to analyze the index performance.",
+                "Worked on softwares like FactSet, Bloomberg Terminal etc. to track and analyze data."]
+            }
+        ],
+    "Education":[
+        
+        {
+            "board":"Shivaji University,Kolhapur",
+            "degree":"B.E. CSE",
+            "insti":"Sanjeevan Engineering & Technology Institute,Kolhapur",
+            "year":"2015-2019"
+        },
+        {
+            "board":"Maharashtra State Board of Secondary & Higher Secondary Education",
+            "degree":"HSC (12th) Science",
+            "insti":"Miraj Mahavidyalaya, Miraj",
+            "year":"2015"
+        },
+        {
+            "board":"Maharashtra State Board of Secondary & Higher Secondary Education",
+            "degree":"SSC (10th)",
+            "insti":"New High-School, kolhapur",
+            "year":"2013"
+        }
+    ],
+    "Projects":[
+        {
+            "prjct_name":"Breeze",
+            "prjct_desc":"A Desktop application for a AC & refrigeration company to maintain their record of services, sales, stock, customers etc..", 
+            "prjct_link":"https://github.com/mafaruk/Breeze"
+        },
+        {
+            "prjct_name":"Portfolio",
+            "prjct_desc":"A portfolio website which provides professional information about an individual or a company and presents a showcase of their work.", 
+            "prjct_link":""
+        },
+        {
+            "prjct_name":"Joe",
+            "prjct_desc":"A Android Homeautomation application which has narrow intaligance to record users action & perform them automatically with users permission. User will aslo have access to controll home appliances", 
+            "prjct_link":""
+        },
+        {
+            "prjct_name":"School_Console",
+            "prjct_desc":"A console based Java Spring application, which help school managment to keep record of the teachers, student, subjects, managment staff, etc..", 
+            "prjct_link":"https://github.com/mafaruk/School_Console"
+        }
+    ],
+    "Certificate":[
+        {
+            "cert_name":"IBM z/OS Mainframe Practitioner",
+            "cert_year":"2021",
+            "cert_by":"IBM",
+            "cert_platform":"Coursera",
+            "cert_image":"./Images/cert/Ibm_mainframe.png",
+            "cert_verify":"https://www.credly.com/badges/0f3e4af7-9ef9-4620-89d5-0b0efb6d21dc?source=linked_in_profile"
+        }, 
+        {
+            "cert_name":"Learning Jira Software",
+            "cert_year":"2021",
+            "cert_by":"Linkedin",
+            "cert_platform":"Linkedin",
+            "cert_image":"./Images/cert/linkedin_jira.png",
+            "cert_verify":"https://www.linkedin.com/learning/learning-jira-software-2019"
+        },
+        {
+            "cert_name":"Introducing Maven",
+            "cert_year":"2021",
+            "cert_by":"Linkedin",
+            "cert_platform":"Linkedin",
+            "cert_image":"./Images/cert/linkedin_maven.png",
+            "cert_verify":"https://www.linkedin.com/learning/introducing-maven"
+        },
+        {
+            "cert_name":"Learning Data Analytics",
+            "cert_year":"2021",
+            "cert_by":"National Association of State Boards of Accountancy (NASBA) | Registry ID: #140940",
+            "cert_platform":"Linkedin",
+            "cert_image":"./Images/cert/linkedin_dataAna.png",
+            "cert_verify":"https://www.linkedin.com/learning/learning-data-analytics-2"
+        },
+        {
+            "cert_name":"SQL: Data Reporting and Analysis",
+            "cert_year":"2021",
+            "cert_by":"Linkedin",
+            "cert_platform":"Linkedin",
+            "cert_image":"./Images/cert/linkedin_sqlda.png",
+            "cert_verify":"https://www.linkedin.com/learning/sql-data-reporting-and-analysis-2"
+        },
+        {
+            "cert_name":"JAVA",
+            "cert_year":"2021",
+            "cert_by":"HackerRank",
+            "cert_platform":"HackerRank",
+            "cert_image":"./Images/cert/hackerrank_Java.png",
+            "cert_verify":"https://www.hackerrank.com/certificates/9320fce1fc04"
+        },
+        {
+            "cert_name":"SQL",
+            "cert_year":"2021",
+            "cert_by":"HackerRank",
+            "cert_platform":"HackerRank",
+            "cert_image":"./Images/cert/hackerrank_sql.png",
+            "cert_verify":"https://www.hackerrank.com/certificates/f9250d02b2eb"
+        },
+        {
+            "cert_name":"JSON Data",
+            "cert_year":"2019",
+            "cert_by":"Stanford University",
+            "cert_platform":"Stanford Online",
+            "cert_image":"./Images/cert/Standford_json.png",
+            "cert_verify":"https://verify.lagunita.stanford.edu/SOA/421f1b669cd34fe3acc39fcbdc9e126a"
+        },
+        {
+            "cert_name":"Object Oriented Programming in Python",
+            "cert_year":"2018",
+            "cert_by":"Udemy",
+            "cert_platform":"Udemy",
+            "cert_image":"./Images/cert/udemy_python2.jpg",
+            "cert_verify":"https://ude.my/UC-7S4J3SEO"
+        },
+        {
+            "cert_name":"Python: Hands-on introduction",
+            "cert_year":"2018",
+            "cert_by":"Udemy",
+            "cert_platform":"Udemy",
+            "cert_image":"./Images/cert/udemy_python1.jpg",
+            "cert_verify":"https://ude.my/UC-1LBZ190C"
+        },
+        {
+            "cert_name":"Best Beginner of Q1-2020 at AXA (FinOps)",
+            "cert_year":"2020",
+            "cert_by":"AXA",
+            "cert_platform":"AXA",
+            "cert_image":"./Images/cert/axa_logo.png",
+            "cert_verify":""
+        }
+        ,
+        {
+            "cert_name":"Seed IT Idol -Feb 2018 - Finalist",
+            "cert_year":"2018",
+            "cert_by":"SEED",
+            "cert_platform":"SEED",
+            "cert_image":"./Images/cert/seed.png",
+            "cert_verify":""
+        }
+    ],
+    "Skills":{
+        "fundamentalSkill":["Software Development","Agile software development","Web Development","Continuous Integration/ Continuous Delivery ","Android Application Development"],
+        "personalSkill":["Management","Leadership","Team work","Adaptability","Problem solving","Active Listening/ Communication"]  
+    }
+
+    
+}
