@@ -124,15 +124,16 @@ const TechnicalSkills=(props)=>{
                             <Col md={4}>
                                 <SiOracle/><p style={{fontSize:'60%'}}>Oracle</p>
                             </Col>
-                            <Col md={4}>
-                            <SiMongodb/><p style={{fontSize:'60%'}}>Mongo DB</p>
-                            </Col>
-                        </Row>
-                        <Row className="icon">
                             <Col md={4} className="mx-0 px-0">
                                 <SiFirebase/><p style={{fontSize:'60%'}}>Firebase RT database</p>
                             </Col>
                         </Row>
+                        {/* <Row className="icon">
+                            
+                            <Col md={4}>
+                            <SiMongodb/><p style={{fontSize:'60%'}}>Mongo DB</p>
+                            </Col>
+                        </Row> */}
                         
                       
                     </CardText>
@@ -142,32 +143,35 @@ const TechnicalSkills=(props)=>{
                             <Col md={4} className="mx-0 px-0">
                                 <SiApachemaven/><p style={{fontSize:'60%'}}>Maven</p>
                             </Col>
-                            <Col md={4}>
-                                <SiGradle/><p style={{fontSize:'60%'}}>Gradle</p>
-                            </Col>
+                            
                             <Col md={4}>
                                 <SiJenkins/><p style={{fontSize:'60%'}}>Jenkins </p>
                             </Col>
-                        </Row>
-                        <Row className="icon">
                             <Col md={4} className="mx-0 px-0">
                                 <SiTeamcity/><p style={{fontSize:'60%'}}>Teamcity</p>
                             </Col>
+                        </Row>
+                        <Row className="icon">
+                           
                             <Col md={4} className="mx-0 px-0">
                                 <SiGithub/><p style={{fontSize:'60%'}}>Github</p>
                             </Col>
                             <Col md={4} className="mx-0 px-0">
                                 <GiTortoise/><p style={{fontSize:'60%'}}>Tortoise SVN</p>
                             </Col>
+                            <Col md={4} className="mx-0 px-0">
+                                <SiSonarqube/><p style={{fontSize:'60%'}}>Sonar Qube</p>
+                            </Col>
                            
                         </Row>
                         <Row className="icon">
-                        <Col md={4} className="mx-0 px-0">
-                                <SiSonarqube/><p style={{fontSize:'60%'}}>Sonar Qube</p>
-                            </Col>
+                       
                             <Col md={4} className="mx-0 px-0">
                                 <SiJirasoftware/><p style={{fontSize:'60%'}}>JIRA</p>
                             </Col>
+                            {/* <Col md={4}>
+                                <SiGradle/><p style={{fontSize:'60%'}}>Gradle</p>
+                            </Col> */}
                            
                         </Row>
         
