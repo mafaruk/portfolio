@@ -29,13 +29,13 @@ const Header=(props)=>{
             }}>
                 <Row className="mr-5" >
                     
-                    <div style={{color:props.content, textAlign:'left', backgroundImage: `url(${imageUrl})`, padding:'1%', backgroundRepeat:'no-repeat', backgroundSize:'cover' }} className="App ">
-                        <div style={{float:'right'}} className="App mx-5">
+                    <div style={{color:props.content, textAlign:'left', backgroundImage: `url(${imageUrl})`, padding:'1%', backgroundRepeat:'no-repeat', backgroundSize:'cover' }} className="App img-responsive">
+                        <div style={{float:'left'}} className="App mx-5">
                             <SocialIcon Color={props.content} BackGround={props.BackGround} content={props.Color} Highlight={props.Highlight}/>
                         </div>
-                        <div className ="mx-5">
-                        <h1 className ="mt-5" style={{textAlign:'left'}}><b style={{backgroundColor:props.Highlight, color:props.Color}}>{"Hi, I'm " +header.name}</b></h1>
-                        <p>a <b style={{backgroundColor:props.Highlight, color:props.Color}}>{header.position }</b> based in India, <br />who believes in buiding things for social & Environmental good.</p>
+                        <div className ="mx-5"style={{float:'right'}}>
+                        <h1 className ="mt-5"><b style={{backgroundColor:props.Highlight, color:props.Color}}>{"Hi, I'm " +header.name}</b></h1>
+                        <p >a <b style={{backgroundColor:props.Highlight, color:props.Color,textAlign:'right'}}>{header.position }</b> based in India, <br />who believes in buiding things for social & Environmental good.</p>
                         <Navbar Color={props.content} BackGround={props.BackGround} />
                         </div>
                         
