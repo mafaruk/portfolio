@@ -25,7 +25,7 @@ const About = (props) => {
                         <Col>
                         <CardText className="text-justify my-3">
                     <p>Hi,</p>
-                    <p>This is <b style={{backgroundColor:props.Highlight, color:props.Color}}>{about}.</b> I graduated in June 2019 from Shivaji University, Kolhapur with a bachelor's degree in computer science & engineering , and from Seed Infotech a 24-week immersive software development program where I dove into the fields of Software Development, and Programming.</p> 
+                    <p>This is <b style={{backgroundColor:props.Highlight, color:props.Color}}>{about}.</b> I graduated in June 2019 from Shivaji University, Kolhapur with a bachelor's degree in computer science & engineering. I also took a immersive software development training from Seed Infotech,where I dove into the fields of Data structures, Programming and Software Development.</p> 
                     <p>I have been programming small softwares and websites since I was in college, so it’s always been my passion. Currently I am working as software engineer at Wolters Kluwer & I also have 1 year of financial data analytics experience at AXA Business Services</p>
                         </CardText>
                         </Col>

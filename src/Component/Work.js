@@ -60,7 +60,7 @@ const Work = (props) =>{
                 <CardBody >
                     <div className="d-inline">
                     <div className="col-md-3" style={{float:'right'}}>
-                            <CardTitle tag="h1" className="" style={{textAlign:'right'}}> <b style={{backgroundColor:props.Highlight, color:props.Color}}>Work Experiance</b></CardTitle>
+                            <CardTitle tag="h1" className="" style={{textAlign:'right'}}> <b style={{backgroundColor:props.Highlight, color:props.Color}}>Work Experience</b></CardTitle>
                         </div>
                         <div className="col-md-9" style={{float:'left'}}> 
                             <CardText className="text-justify my-3">

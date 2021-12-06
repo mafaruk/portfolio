@@ -97,7 +97,7 @@ const Certificate=(props)=>{
                 <CardBody >
                     <Row >
                         <Col md={4}>
-                            <CardTitle tag="h1" className="" style={{textAlign:'left'}}> <b style={{backgroundColor:props.Highlight}}>Certificates & Achivements</b></CardTitle>
+                            <CardTitle tag="h1" className="" style={{textAlign:'left'}}> <b style={{backgroundColor:props.Highlight}}>Certificates & Achievement</b></CardTitle>
                         </Col>
                         <Col  md={8}> 
                             <CardText className="text-justify my-3">

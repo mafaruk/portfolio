@@ -19,7 +19,7 @@ const Navbar =(props)=>{
 
     const navItemsArr = navItems.map((item) =>
         <NavItem >
-            <NavLink href='#' for={item}  style={{color:props.Color}} >    
+            <NavLink href='#About' for={item}  style={{color:props.Color}} >    
                 <b>{item}</b>
             </NavLink>
         </NavItem>

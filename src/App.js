@@ -29,7 +29,7 @@ function App() {
       <Row>
         <Col md={9} >  
           <Row >
-            <About Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
+            <About name="About" Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
 	        </Row>
           <Row >
             <Work Color={color1} BackGround={color1} Highlight={color2} content={color2}/>
