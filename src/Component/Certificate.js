@@ -36,7 +36,7 @@ const Certificate=(props)=>{
     };
 
 
-    let images= ['',imgibmm,
+    let images= [imgibmm,
         imglij ,
         imglim ,
         imglis ,
@@ -50,7 +50,7 @@ const Certificate=(props)=>{
         imgs   ,
         ]
     
-    let a=0;
+    let a=-1;
     const CertficateList = cert.map((item)=>
     
     <Carousel.Item style={{color:props.Color,backgroundColor:'transparent'}} className={a = a+1} >
@@ -62,16 +62,18 @@ const Certificate=(props)=>{
 		<CardImgOverlay>
             
             <CardTitle tag="h5" style={{color:props.Color}}>
-				{item.cert_name}
+				<b style={{backgroundColor:props.Highlight, color:props.Color}}>{item.cert_name}</b>
 			</CardTitle>
 			<CardText className="py-5 my-5">
             <Carousel.Caption className="py-5 mt-5">
-				<b><small style={{color:props.Color}}>
-                    Year :- {item.cert_year}<br />
-                    Issued By:- {item.cert_platform}<br />
-                    Authorized By:- {item.cert_by}
-				</small><br/> </b>
-                <Button color="primary" href={item.cert_verify} target="_blank">Verify</Button>
+				<small style={{color:props.Color}}>
+                    <b style={{backgroundColor:props.Highlight, color:props.Color}}>Year :- {item.cert_year}</b><br />
+                    <b style={{backgroundColor:props.Highlight, color:props.Color}}>Issued By:- {item.cert_platform}</b><br />
+                    <b style={{backgroundColor:props.Highlight, color:props.Color}}>Authorized By:- {item.cert_by}</b>
+				</small><br/> 
+                    <Button color="primary" href={item.cert_verify} target="_blank" className="mt-1">Verify</Button>    
+                
+                
             </Carousel.Caption>
 			</CardText>
             

@@ -2,7 +2,10 @@
     "name":"Mafaruk Bagwan",
     "position":"Full Stack Developer",
     "degree":"Bachelor of Engineering in Computer Science & Engineering",
-    "navigation":["About Me", "Work Experience", "Education", "Projects", "Certification & Achievement"],
+    "navigation":{
+        "nav":["About Me", "Work Experience", "Projects", "Certification & Achievement", "Education", "Tools & Technologies", "Skills"],
+        "href":["about", "work", "projects", "cert", "edu","tools", "skill"]
+    },
     "work":[
             {
                 "org_name":"Wolters Kluwer",

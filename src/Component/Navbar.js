@@ -16,10 +16,12 @@ const Navbar =(props)=>{
         console.log(navBar);
     };
   
-
-    const navItemsArr = navItems.map((item) =>
+    let links = navItems.href;
+    let a = 0;
+    const navItemsArr = navItems.nav.map((item) =>
         <NavItem >
-            <NavLink href='#About' for={item}  style={{color:props.Color}} >    
+            <NavLink  href={"#"+links[a]} className={a = a+1} style={{color:props.Color}} >  
+                
                 <b>{item}</b>
             </NavLink>
         </NavItem>

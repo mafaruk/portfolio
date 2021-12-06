@@ -17,7 +17,7 @@ import './tech.css'
 
 const TechnicalSkills=(props)=>{
     return(
-        <div style={{textAlign:'left',  color:props.content}}>
+        <div style={{textAlign:'left',  color:props.content}} id={props.id}>
             <Card style={{backgroundColor:props.BackGround, width:'max-width', border:'0' }}>
                     <CardBody >
                     <CardTitle tag="h1" className="" style={{textAlign:'left'}}> <b style={{backgroundColor:props.Highlight, color:props.Color}}>Tools & Technologies</b></CardTitle>

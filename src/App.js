@@ -12,8 +12,6 @@ import Footer from './Component/Footer'
 function App() {
   
   const color1 = 'rgb(49, 21, 115)';//rgba(255, 255, 255,1)
-  
-  
   const color2= 'rgba(255, 255, 255,1)';//rgb(49, 21, 115)
   
   return (
@@ -28,25 +26,25 @@ function App() {
       
       <Row>
         <Col md={9} >  
-          <Row >
-            <About name="About" Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
+          <Row id="about" >
+            <About  Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
 	        </Row>
-          <Row >
+          <Row id="work">
             <Work Color={color1} BackGround={color1} Highlight={color2} content={color2}/>
 	        </Row>
-          <Row >
+          <Row id="projects">
             <Project Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
 	        </Row>
-          <Row >
+          <Row id="cert">
             <Certificate Color={color1} BackGround={color1} Highlight={color2} content={color2}/>
 	        </Row>
-          <Row >
+          <Row id="edu">
             <Education Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
 	        </Row>
         </Col>
         <Col md={3} className="mt-2">  
-          <TechnicalSkills Color={color1} BackGround={color1} Highlight={color2} content={color2} />
-          <FundamentalSkills  Color={color1} BackGround={color1} Highlight={color2} content={color2} />
+          <TechnicalSkills id="tools" Color={color1} BackGround={color1} Highlight={color2} content={color2} />
+          <FundamentalSkills id="skill" Color={color1} BackGround={color1} Highlight={color2} content={color2} />
         </Col>
       </Row>
       <Row>
