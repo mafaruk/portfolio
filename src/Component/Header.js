@@ -30,7 +30,7 @@ const Header=(props)=>{
                 <Row className="mr-5" >
                     
                     <div style={{color:props.content, textAlign:'left', backgroundImage: `url(${imageUrl})`, padding:'1%', backgroundRepeat:'no-repeat', backgroundSize:'cover' }} className="App img-responsive">
-                        <div style={{float:'left'}} className="App mx-5">
+                        <div style={{float:'left'}} className="App">
                             <SocialIcon Color={props.content} BackGround={props.BackGround} content={props.Color} Highlight={props.Highlight}/>
                         </div>
                         <div className ="mx-5"style={{float:'right'}}>
