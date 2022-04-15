@@ -8,9 +8,15 @@
     },
     "work":[
             {
+                "org_name":"KPIT Technologies",
+                "position":"Software Engineering",
+                "time_span":"March 2022 - Present",
+                "description":[""]
+            },
+            {
                 "org_name":"Wolters Kluwer",
                 "position":"Product Software Engineering I",
-                "time_span":"April 2021 - Present",
+                "time_span":"April 2021 - March 2022",
                 "description":["Designing & Implementing robust and efficient Solutions while following the best practices.",
                 "Analyzed and fine tuned multiple areas in project,(SonarQube) Contributed in improving efficiency and Security of the services.",
                 "Working with Cross functioning teams, Building CI/CD flows for automating testing, versioning and release."]
