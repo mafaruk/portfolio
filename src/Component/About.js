@@ -25,8 +25,8 @@ const About = (props) => {
                         <Col>
                         <CardText className="text-justify my-3">
                     <p>Hi,</p>
-                    <p>This is <b style={{backgroundColor:props.Highlight, color:props.Color}}>{about}.</b> I graduated in June 2019 from Shivaji University, Kolhapur with a bachelor's degree in computer science & engineering. I also took a immersive software development training from Seed Infotech,where I dove into the fields of Data structures, Programming and Software Development.</p> 
-                    <p>I have been programming small softwares and websites since I was in college, so it’s always been my passion. Currently I am working as software engineer at Wolters Kluwer & I also have 1 year of financial data analytics experience at AXA Business Services</p>
+                    <p>This is <b style={{backgroundColor:props.Highlight, color:props.Color}}>{about}.</b> </p>
+                    <p>A results-driven Java Full Stack Developer with 4+ years of experience in designing, developing, and deploying scalable applications. Proficient in Java, Spring Boot, Microservices, and frontend technologies like ReactJS. Strong expertise in Agile methodologies, CI/CD, and database management. Passionate about delivering high-quality software solutions that align with business objectives.</p>
                         </CardText>
                         </Col>
                     </Row>

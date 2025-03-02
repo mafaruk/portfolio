@@ -2,19 +2,6 @@ import React, {useState, useEffect} from 'react';
 import {Card, CardBody, CardImgOverlay,CardImg,Row,Col,CardTitle,CardText,UncontrolledTooltip,Container,Button} from 'reactstrap';
 import {Carousel} from 'react-bootstrap';
 import Data from './data/data.json';
-import imgibmm from './Images/cert/Ibm_mainframe.png';
-import imglij from './Images/cert/linkedin_jira.png';
-import imglim from './Images/cert/linkedin_maven.png';
-import imglis from './Images/cert/linkedin_dataAna.png';
-import imglid from './Images/cert/linkedin_sqlda.png';
-import imghj from './Images/cert/hackerrank_Java.png';
-import imghs from './Images/cert/hackerrank_sql.png';
-import imgsj from './Images/cert/Standford_json.png';
-import imgup1 from './Images/cert/udemy_python2.jpg';
-import imgup2 from './Images/cert/udemy_python1.jpg';
-import imga from './Images/cert/axa_logo.jpg';
-import imgs from './Images/cert/seed.jpg';
-
 const Certificate=(props)=>{
     
     const [cert, setCert] = useState(Data.Certificate);
@@ -36,20 +23,7 @@ const Certificate=(props)=>{
     };
 
 
-    let images= [imgibmm,
-        imglij ,
-        imglim ,
-        imglis ,
-        imglid ,
-        imghj  ,
-        imghs  ,
-        imgsj  ,
-        imgup1 ,
-        imgup2 ,
-        imga   ,
-        imgs   ,
-        ]
-    
+   
     let a=-1;
     const CertficateList = cert.map((item)=>
     
@@ -57,7 +31,7 @@ const Certificate=(props)=>{
         
         <Card inverse style={{backgroundColor:'transparent'}}>
         <div className="d-block w-100"  style={imgtyle}>
-		    <CardImg alt="Card image cap" src={images[a]} width="100%" height='90%'/>
+		    <CardImg alt="Card image cap" src={item.cert_image} width="100%" height='90%'/>
         </div>
 		<CardImgOverlay>
             

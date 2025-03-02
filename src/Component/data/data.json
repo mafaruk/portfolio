@@ -8,29 +8,56 @@
     },
     "work":[
             {
-                "org_name":"KPIT Technologies",
+                "org_name":"KPIT Technologies Ltd",
+                "position":"Tech Lead",
+                "time_span":"October 2024 – Present",
+                "description":["Spearheaded the third phase of a critical enterprise project, ensuring on-time delivery with high-quality standards.",
+                "Strategically collaborated with cross-functional teams, aligning project goals with client expectations.",
+                "Analyzed complex business requirements and translated them into clear technical solutions and user stories.",
+                "Conducted rigorous code reviews and managed version control using GitLab and GitHub to maintain code integrity and best practices"
+                ]
+            },
+            {
+                "org_name":"KPIT Technologies Ltd",
+                "position":"Sr. Software Engineering",
+                "time_span":"March 2023 – October 2024",
+                "description":["Took ownership of project deliverables, driving technical excellence and scalability.",
+                "Worked closely with stakeholders to understand client needs and implemented tailored solutions.",
+                "Developed robust backend architectures, integrating microservices and ensuring high performance.",
+                "Enforced best coding practices through in-depth reviews and continuous improvements.",
+                "Designed and implemented JUnit test cases, enhancing system reliability and maintainability."
+                ]
+            },
+            {
+                "org_name":"KPIT Technologies Ltd",
                 "position":"Software Engineering",
-                "time_span":"March 2022 - Present",
-                "description":["Analyse user requirements,research, design and write new software programs. ",
-                "Continually update technical knowledge and skills by attending in-house and external courses, reading manuals and accessing new applications."]
+                "time_span":"March 2022 – March 2023",
+                "description":["Played a key role in the development and enhancement of enterprise applications using Java and Spring Boot.",
+                "Collaborated with Agile teams to deliver high-quality software solutions.",
+                "Focused on performance optimization and scalability while ensuring system robustness.",
+                "Designed and maintained JUnit test cases, significantly improving code reliability."
+                ]
             },
             {
                 "org_name":"Wolters Kluwer",
-                "position":"Product Software Engineering I",
+                "position":"Product Software Engineering",
                 "time_span":"April 2021 - March 2022",
-                "description":["Designing & Implementing robust and efficient Solutions while following the best practices.",
-                "Analyzed and fine tuned multiple areas in project,(SonarQube) Contributed in improving efficiency and Security of the services.",
-                "Working with Cross functioning teams, Building CI/CD flows for automating testing, versioning and release."]
+                "description":["Engineered high-performance software solutions for financial reporting applications.",
+                "Led security analysis and performance enhancements using SonarQube.",
+                "Actively contributed to Agile-based development cycles, ensuring smooth iterative releases.",
+                "Designed and implemented CI/CD pipelines to automate testing, versioning, and deployments"
+                ]
             },
 
             {
                 "org_name":"AXA Business Services",
                 "position":"Associate",
                 "time_span":"September 2019 - January 2021",
-                "description":["Achieved automation in data loading tasks by migrating to data feeds from various data vendors like Bloomberg, Factset, MSCI, JP morgan, FTSE etc., this has reduced manual work done by 24%.",
-                "Developed complex SQL queries and fine-tuned stored procedures for data cleaning, data transformation, quality checks, database objects creation.",
-                "Assisted senior executives, analysts and other stakeholders, to analyze the index performance.",
-                "Worked on softwares like FactSet, Bloomberg Terminal etc. to track and analyze data."]
+                "description":["Automated critical data loading processes, reducing manual workload by 24% and improving efficiency.",
+                "Developed and optimized complex SQL queries and stored procedures to enhance data processing.",
+                "Provided data-driven insights to senior executives and financial analysts, facilitating informed decision-making.",
+                "Worked with financial tools such as Bloomberg Terminal and FactSet to analyze and track financial data."
+                ]
             }
         ],
     "Education":[
@@ -40,12 +67,6 @@
             "degree":"B.E. CSE",
             "insti":"Sanjeevan Engineering & Technology Institute,Kolhapur",
             "year":"2015-2019"
-        },
-        {
-            "board":"Maharashtra State Board of Secondary & Higher Secondary Education",
-            "degree":"HSC (12th) Science",
-            "insti":"Miraj Mahavidyalaya, Miraj",
-            "year":"2015"
         }
        
     ],
@@ -61,17 +82,28 @@
             "prjct_link":""
         },
         {
-            "prjct_name":"Joe",
-            "prjct_desc":"A Android Home automation application which has narrow intelligence to record users action & control home appliances", 
-            "prjct_link":""
-        },
-        {
             "prjct_name":"School_Console",
             "prjct_desc":"A console based Java Spring application, which help school managment to keep record of the teachers, student, subjects, managment staff, etc..", 
             "prjct_link":"https://github.com/mafaruk/School_Console"
         }
     ],
     "Certificate":[
+        {
+            "cert_name":"Project Management Foundations: Risk",
+            "cert_year":"2024",
+            "cert_by":"Project Management Institute",
+            "cert_platform":"Linkedin",
+            "cert_image":"./Images/cert/ProjectManagementFoundation.png",
+            "cert_verify":"https://www.linkedin.com/learning/certificates/4129f1e9efe15d13fccab8f60b22c17d99a2f3520c9b9f8137fc63eaa484ab13?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BknQtwxApRl6dOxGw8RP2ZQ%3D%3D"
+        }, 
+        {
+            "cert_name":"Technical Leader",
+            "cert_year":"2024",
+            "cert_by":"KPIT Technologies Ltd",
+            "cert_platform":"KPIT Academy",
+            "cert_image":"./Images/cert/kpit_techlead.jpg",
+            "cert_verify":""
+        }, 
         {
             "cert_name":"IBM z/OS Mainframe Practitioner",
             "cert_year":"2021",
@@ -111,22 +143,6 @@
             "cert_platform":"Linkedin",
             "cert_image":"./Images/cert/linkedin_sqlda.png",
             "cert_verify":"https://www.linkedin.com/learning/sql-data-reporting-and-analysis-2"
-        },
-        {
-            "cert_name":"JAVA",
-            "cert_year":"2021",
-            "cert_by":"HackerRank",
-            "cert_platform":"HackerRank",
-            "cert_image":"./Images/cert/hackerrank_Java.png",
-            "cert_verify":"https://www.hackerrank.com/certificates/9320fce1fc04"
-        },
-        {
-            "cert_name":"SQL",
-            "cert_year":"2021",
-            "cert_by":"HackerRank",
-            "cert_platform":"HackerRank",
-            "cert_image":"./Images/cert/hackerrank_sql.png",
-            "cert_verify":"https://www.hackerrank.com/certificates/f9250d02b2eb"
         },
         {
             "cert_name":"JSON Data",
@@ -171,8 +187,8 @@
         }
     ],
     "Skills":{
-        "fundamentalSkill":["Software Development","Agile software development","Web Development","Continuous Integration/ Continuous Delivery ","Android Application Development"],
-        "personalSkill":["Management","Leadership","Team work","Adaptability","Problem solving","Active Listening/ Communication"]  
+        "fundamentalSkill":["Restful APIs", "CI/CD", "Azure Cloud", "Python Flask Development", "Web Development", "Android Development", "Agile Development"],
+        "personalSkill":["Leadership & Teamwork", "Problem Solving & Decision Making", "Time Management & Adaptability", "Effective Communication & Presentation", "Agile & Risk Management"]  
     }
 
     
