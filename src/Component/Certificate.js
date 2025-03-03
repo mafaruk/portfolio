@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Card, CardBody, CardImgOverlay,CardImg,Row,Col,CardTitle,CardText,UncontrolledTooltip,Container,Button} from 'reactstrap';
+import {Card, CardBody, CardImgOverlay,CardImg,Row,Col,CardTitle,CardText,Container,Button} from 'reactstrap';
 import {Carousel} from 'react-bootstrap';
 import Data from './data/data.json';
 import imgibmm from './Images/cert/Ibm_mainframe.png';
@@ -21,7 +21,7 @@ const Certificate=(props)=>{
     const [cert, setCert] = useState(Data.Certificate);
     useEffect(() => {
         getCert();
-    },[]);
+    },[getCert]);
 
     const getCert=()=>{
         setCert(cert);
@@ -85,14 +85,7 @@ const Certificate=(props)=>{
     
 	</Carousel.Item>
     );
-    const style = {
-        width: '400px', /* width of container */
-        height: '300px', /* height of container */
-        objectFit: 'cover',
-        objectPosition: '20% 20%', /* try 20px 10px */ 
-        
-        
-    };
+   
     
     return(
         <div id='about'>

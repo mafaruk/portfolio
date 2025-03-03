@@ -6,7 +6,7 @@ const About = (props) => {
 
     useEffect(() => {
         getAbout();
-    },[]);
+    },[getAbout]);
 
     const getAbout= () =>{
         setabout(about);

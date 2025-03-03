@@ -10,7 +10,7 @@ const Header=(props)=>{
 
     useEffect(() => {
         getheader();
-    },[]);
+    },[getheader]);
 
     const getheader=()=>{
         setheader(header);

@@ -6,7 +6,7 @@ const Project=(props)=>{
     const [project, setProject] = useState(Data.Projects);
     useEffect(()=>{
         getProject();
-    },[])
+    },[getProject])
 
     const getProject=()=>{
         setProject(project);

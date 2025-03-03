@@ -1,7 +1,7 @@
-import React, {useState, useEffect}from 'react';
+import React, {}from 'react';
 import {Nav,NavItem,NavLink,} from 'reactstrap';
-import {Row} from 'reactstrap';
-import { FaTwitter, FaLinkedin, FaGithub,  FaEnvelope} from "react-icons/fa";
+
+import { FaTwitter, FaLinkedin, FaEnvelope} from "react-icons/fa";
 import {IconContext} from "react-icons";
 
 const Footer = (props) =>{

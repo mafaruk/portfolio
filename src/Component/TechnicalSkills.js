@@ -1,7 +1,7 @@
 import React, { } from 'react';
-import {Card, CardBody, CardTitle,CardText, Container,Col,Row, CardSubtitle} from 'reactstrap';
-import { SIJava, SiSpring,SiJavascript,SiSpringboot,SiHibernate,SiJunit5,SiPython,SiReact,SiJquery,SiHtml5,
-    SiCss3,SiBootstrap,SiApachemaven,SiJenkins, SiTeamcity,
+import {Card, CardBody, CardTitle,CardText,Col,Row, CardSubtitle} from 'reactstrap';
+import {SiSpring,SiJavascript,SiSpringboot,SiHibernate,SiJunit5,SiReact,SiHtml5,
+    SiCss3,SiBootstrap,SiApachemaven,SiJenkins,
     SiMongodb,
     SiGithub,
     SiJirasoftware,

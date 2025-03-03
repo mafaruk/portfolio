@@ -9,7 +9,7 @@ const Navbar =(props)=>{
 
     useEffect(() => {
         getheader();
-    },[]);
+    },[getheader]);
 
     const getheader=()=>{
         setnavBar(navBar);

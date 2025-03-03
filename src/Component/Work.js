@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import {Accordion} from 'react-bootstrap';
-import {Container,Card,CardBody,CardTitle,CardText, List,Row,Col} from 'reactstrap';
+import {Container,Card,CardBody,CardTitle, List,Row} from 'reactstrap';
 import Data from './data/data.json'
 const Work = (props) =>{
     const [work,setWork] = useState(Data.work);

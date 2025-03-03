@@ -1,5 +1,5 @@
 import React, { useState,useEffect} from 'react';
-import {Card, CardBody, CardTitle,CardText, List,Col,Row, CardSubtitle} from 'reactstrap';
+import {Card, CardBody, CardTitle,CardText, CardSubtitle} from 'reactstrap';
 import Data from './data/data.json';
 import './tech.css'
 const FundamentalSkills= (props) =>{
@@ -7,7 +7,7 @@ const FundamentalSkills= (props) =>{
     
     useEffect(()=>{
         getSkills();
-    },[]);
+    },[getSkills]);
 
     const getSkills=()=>{
         setSkills(skills);

@@ -5,7 +5,7 @@ const Education=( props)=>{
     const [edu, setEdu] = useState(Data.Education);
     useEffect(()=>{
         getEdu();
-    },[]);
+    },[getEdu]);
 
     const getEdu=()=>{
         setEdu(edu);
