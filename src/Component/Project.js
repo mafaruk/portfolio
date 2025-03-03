@@ -22,9 +22,9 @@ const Project=(props)=>{
         
     };
     const projectList = project.map((item)=>
-    <Carousel.Item style={{color:props.Color, backgroundColor:props.content}}>
+    <Carousel.Item style={{color:props.content, backgroundColor:props.Color }}>
         <div className="d-block w-100"  style={style}>
-            <Carousel.Caption className=" " style={{color:props.Color, style}}>
+            <Carousel.Caption className=" " style={{color:props.content, style}}>
                 <h5>{item.prjct_name}</h5>
                     <p>{item.prjct_desc}</p>
                     <div>

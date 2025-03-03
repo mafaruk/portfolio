@@ -27,10 +27,10 @@ const FundamentalSkills= (props) =>{
             <Card style={{backgroundColor:props.BackGround, width:'max-width', border:'0' }}>
                     <CardBody >
                     <CardTitle tag="h1" className="" style={{textAlign:'left'}}> <b style={{backgroundColor:props.Highlight, color:props.Color}}>Skills</b></CardTitle>
-                    <CardSubtitle tag="h6" className="mt-1">Fundamental Skill</CardSubtitle>
-                        <CardText className="text-left my-3"  >{fskills}</CardText>
-                    <CardSubtitle tag="h6" className="mt-1">Personal Skill</CardSubtitle>
-                        <CardText className="text-left my-3" >{pskills} </CardText>
+                    <CardSubtitle tag="h6" className="mt-1"style={{ color:props.Color}} >Fundamental Skill</CardSubtitle>
+                        <CardText className="text-left my-3" style={{ color:props.Color}}  >{fskills}</CardText>
+                    <CardSubtitle tag="h6" className="mt-1" style={{ color:props.Color}}>Personal Skill</CardSubtitle>
+                        <CardText className="text-left my-3" style={{ color:props.Color}}>{pskills} </CardText>
                 </CardBody>
             </Card>
         </div>

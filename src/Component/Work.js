@@ -35,9 +35,9 @@ const Work = (props) =>{
                 <Accordion.Body>
                     <List type="unstyled">
                         <li>
-                            <h5 style={{fontSize:'105%'}}>{items.position}</h5>
-                            <h6 style={{fontSize:'90%'}}>{items.time_span}</h6>
-                            <ul style={{fontSize:'90%', listStyleType:'disc'}}>
+                            <h5 style={{fontSize:'105%', color:props.content}}>{items.position}</h5>
+                            <h6 style={{fontSize:'90%', color:props.content}}>{items.time_span}</h6>
+                            <ul style={{fontSize:'90%', listStyleType:'disc', color:props.content}}>
                                 {   items.description.map((desc)=>
                                         <li>{desc}</li>
                                     )}

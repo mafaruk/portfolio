@@ -34,8 +34,8 @@ const Header=(props)=>{
                             <SocialIcon Color={props.content} BackGround={props.BackGround} content={props.Color} Highlight={props.Highlight}/>
                         </div>
                         <div className ="mx-5"style={{float:'right'}}>
-                        <h1 className ="mt-5"><b style={{backgroundColor:props.Highlight, color:props.Color}}>{"Hi, I'm " +header.name}</b></h1>
-                        <p >a <b style={{backgroundColor:props.Highlight, color:props.Color,textAlign:'right'}}>{header.position }</b> based in India, <br />who believes in buiding things for social & Environmental good.</p>
+                        <h1 className ="mt-5"><b style={{color:props.Highlight}}>{"Hi, I'm " +header.name}</b></h1>
+                        <p >a <b style={{backgroundColor:props.Highlight, color:props.Color,textAlign:'left'}}>{header.position }</b> based in India, <br />who believes in buiding things for social & Environmental good.</p>
                         <Navbar Color={props.content} BackGround={props.BackGround} />
                         </div>
                         

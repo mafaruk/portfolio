@@ -11,8 +11,10 @@ import FundamentalSkills from './Component/FundamentalSkills';
 import Footer from './Component/Footer'
 function App() {
   
-  const color1 = 'rgb(49, 21, 115)';//rgba(255, 255, 255,1)
-  const color2= 'rgba(255, 255, 255,1)';//rgb(49, 21, 115)
+  const color1 = 'rgb(126, 153, 163)';//rgba(255, 255, 255,1)
+  const color2= 'rgb(247, 247, 247)';//rgb(49, 21, 115)
+ 
+
   
   return (
     <div style={{ backgroundColor:color2, padding:'1%', paddingTop:'0' }}>
@@ -27,24 +29,24 @@ function App() {
       <Row>
         <Col md={9} >  
           <Row id="about" >
-            <About  Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
+            <About  Color={color1} BackGround={color2} Highlight={color2} content={color1}/>
 	        </Row>
           <Row id="work">
-            <Work Color={color1} BackGround={color1} Highlight={color2} content={color2}/>
+            <Work Color={color2} BackGround={color1} Highlight={color1} content={color2} />
 	        </Row>
           <Row id="projects">
-            <Project Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
+            <Project  Color={color1} BackGround={color2} Highlight={color2} content={color2}/>
 	        </Row>
           <Row id="cert">
-            <Certificate Color={color1} BackGround={color1} Highlight={color2} content={color2}/>
+            <Certificate Color={color2} BackGround={color1} Highlight={color1} content={color2}/>
 	        </Row>
           <Row id="edu">
-            <Education Color={color2} BackGround={color2} Highlight={color1} content={color1}/>
+            <Education  Color={color1} BackGround={color2} Highlight={color2} content={color2}/>
 	        </Row>
         </Col>
         <Col md={3} className="mt-2">  
-          <TechnicalSkills id="tools" Color={color1} BackGround={color1} Highlight={color2} content={color2} />
-          <FundamentalSkills id="skill" Color={color1} BackGround={color1} Highlight={color2} content={color2} />
+          <TechnicalSkills id="tools" Color={color2} BackGround={color1} Highlight={color1} content={color2} />
+          <FundamentalSkills id="skill" Color={color2} BackGround={color1} Highlight={color1} content={color2} />
         </Col>
       </Row>
       <Row>

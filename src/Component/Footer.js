@@ -17,14 +17,13 @@ const Footer = (props) =>{
         
     };
     return(
-    <div style={style} className="text-center mt-3">
+    <div style={style} className="text-center mt-3" >
         <h5>
-            & that's me. 
+
+            you can reach out to me at
         </h5>
-        <p>
-            you can reach me at
-        </p>
-        <Nav pills style={{margin:"auto", width:'18%', padding:'10px'}}>
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
+        <Nav pills style={{ display: "flex", gap: "10px", padding: "10px" }}>
                     <NavItem >
                         <NavLink href="https://twitter.com/Mafaruk_Bagwan"  target="_blank" style={{color:props.Color}} >
                             <IconContext.Provider value={{ style: {fontSize: '180%',color:props.content}}} >
@@ -54,6 +53,7 @@ const Footer = (props) =>{
                     </NavItem> 
                     <NavItem></NavItem>
                 </Nav>
+                </div>
     </div>
     );
 };

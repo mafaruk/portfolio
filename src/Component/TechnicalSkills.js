@@ -1,31 +1,30 @@
 import React, { } from 'react';
 import {Card, CardBody, CardTitle,CardText, Container,Col,Row, CardSubtitle} from 'reactstrap';
-import { SiJava, SiSpring,SiJavascript,SiSpringboot,SiHibernate,SiJunit5,SiPython,SiReact,SiJquery,SiHtml5,
+import { SIJava, SiSpring,SiJavascript,SiSpringboot,SiHibernate,SiJunit5,SiPython,SiReact,SiJquery,SiHtml5,
     SiCss3,SiBootstrap,SiApachemaven,SiJenkins, SiTeamcity,
     SiMongodb,
     SiGithub,
     SiJirasoftware,
     SiSonarqube,
-    SiMysql, SiPostgresql,SiDocker,SiGit,SiGitlab,SiPostman,SiGerrit,SiAndroid   } from "react-icons/si";
+    SiMysql, SiPostgresql,SiDocker,SiGit,SiGitlab,SiPostman,SiGerrit,SiAndroid, SiFlask     } from "react-icons/si";
 import { VscCode,VscAzureDevops  } from "react-icons/vsc";
-import { DiScrum  } from "react-icons/di";
-import { GiTortoise } from "react-icons/gi";
+import { DiScrum,DiJava   } from "react-icons/di";
 import './tech.css'
 
 const TechnicalSkills=(props)=>{
     return(
-        <div style={{textAlign:'left',  color:props.content}} id={props.id}>
+        <div style={{textAlign:'left',  color:props.Color}} id={props.id}>
             <Card style={{backgroundColor:props.BackGround, width:'max-width', border:'0' }}>
                     <CardBody >
                     <CardTitle tag="h1" className="" style={{textAlign:'left'}}> <b style={{backgroundColor:props.Highlight, color:props.Color}}>Tools & Technologies</b></CardTitle>
-                    <CardSubtitle tag="h6" className="mt-1">Backend</CardSubtitle>
-                    <CardText className="text-center my-3" style={{fontSize:'140%'}}>
+                    <CardSubtitle tag="h6" className="mt-1" style={{color:props.Color}}>Backend</CardSubtitle>
+                    <CardText className="text-center my-3" style={{fontSize:'140%',color:props.Color}}>
                         <Row className="icon">
                             <Col md={4} className="mx-0 px-0">
-                                <SiJava /><p style={{fontSize:'60%'}}>Java</p>
+                                <DiJava  /><p style={{fontSize:'60%'}}>Java</p>
                             </Col>
                             <Col md={4} className="mx-0 px-0">
-                                <SiJava/><p style={{fontSize:'60%'}}>J2EE</p>
+                                <DiJava /><p style={{fontSize:'60%'}}>J2EE</p>
                             </Col>
                             <Col md={4} className="mx-0 px-0">
                                 <SiSpring/><p style={{fontSize:'60%'}}>Microservices</p>
@@ -65,8 +64,8 @@ const TechnicalSkills=(props)=>{
                             </Col>
                         </Row>
                     </CardText>
-                    <CardSubtitle tag="h6" className="mt-1">Frontend</CardSubtitle>
-                    <CardText className="text-center my-3" style={{fontSize:'140%'}}>
+                    <CardSubtitle tag="h6" className="mt-1" style={{color:props.Color}}>Frontend</CardSubtitle>
+                    <CardText className="text-center my-3" style={{fontSize:'140%', color:props.Color}}>
                     <Row className="icon">
                             <Col md={4}>
                                 <SiHtml5/><p style={{fontSize:'60%'}}>HTML 5</p>
@@ -93,8 +92,8 @@ const TechnicalSkills=(props)=>{
                         </Row>
                         
                     </CardText> 
-                    <CardSubtitle tag="h6" className="mt-1">Tools</CardSubtitle>
-                    <CardText className="text-center my-3" style={{fontSize:'140%'}}>
+                    <CardSubtitle tag="h6" className="mt-1" style={{color:props.Color}}>Tools</CardSubtitle>
+                    <CardText className="text-center my-3" style={{fontSize:'140%',color:props.Color}}>
                         <Row className="icon">
                             <Col md={4} className="mx-0 px-0">
                                 <SiDocker /><p style={{fontSize:'60%'}}>Docker</p>
@@ -131,8 +130,8 @@ const TechnicalSkills=(props)=>{
         
                       
                     </CardText>
-                    <CardSubtitle tag="h6" className="mt-1">Other Skils</CardSubtitle>
-                    <CardText className="text-center my-3" style={{fontSize:'140%'}}>
+                    <CardSubtitle tag="h6" className="mt-1" style={{color:props.Color}}>Other Skils</CardSubtitle>
+                    <CardText className="text-center my-3" style={{fontSize:'140%', color:props.Color}}>
                         <Row className="icon">
                             <Col md={4} className="mx-0 px-0">
                                 <VscCode/><p style={{fontSize:'60%'}}>Restful APIs</p>
@@ -141,7 +140,7 @@ const TechnicalSkills=(props)=>{
                                 <VscAzureDevops/><p style={{fontSize:'60%'}}>Azure Cloud </p>
                             </Col>
                             <Col md={4} className="mx-0 px-0">
-                                <SiPython/><p style={{fontSize:'60%'}}>Python Flask Development</p>
+                                <SiFlask /><p style={{fontSize:'60%'}}>Python Flask Development</p>
                             </Col>
                         </Row>
                         <Row className="icon">
