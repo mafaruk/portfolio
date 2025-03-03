@@ -5,9 +5,10 @@ import './tech.css'
 const FundamentalSkills= (props) =>{
     const[skills, setSkills] = useState(Data.Skills);
     
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=>{
         getSkills();
-    },[getSkills]);
+    },[]);
 
     const getSkills=()=>{
         setSkills(skills);

@@ -4,9 +4,11 @@ import {Carousel} from 'react-bootstrap';
 import Data from './data/data.json'
 const Project=(props)=>{
     const [project, setProject] = useState(Data.Projects);
+    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=>{
         getProject();
-    },[getProject])
+    },[])
 
     const getProject=()=>{
         setProject(project);

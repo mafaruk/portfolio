@@ -19,9 +19,10 @@ import imgpmp from './Images/cert/ProjectManagementFoundation.png';
 const Certificate=(props)=>{
     
     const [cert, setCert] = useState(Data.Certificate);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getCert();
-    },[getCert]);
+    },[]);
 
     const getCert=()=>{
         setCert(cert);

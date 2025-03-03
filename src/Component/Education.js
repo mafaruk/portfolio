@@ -3,9 +3,10 @@ import {Card, CardBody, CardTitle,CardText,CardHeader,CardFooter,Container,Row,C
 import Data from './data/data.json';
 const Education=( props)=>{
     const [edu, setEdu] = useState(Data.Education);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=>{
         getEdu();
-    },[getEdu]);
+    },[]);
 
     const getEdu=()=>{
         setEdu(edu);

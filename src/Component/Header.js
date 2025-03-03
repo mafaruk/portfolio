@@ -8,9 +8,10 @@ const Header=(props)=>{
     const imageUrl = headshot;
     const [header, setheader] = useState(Data);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getheader();
-    },[getheader]);
+    },[]);
 
     const getheader=()=>{
         setheader(header);

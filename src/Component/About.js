@@ -4,9 +4,10 @@ import Data from './data/data.json'
 const About = (props) => {
     const [about, setabout] = useState(Data.name);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getAbout();
-    },[getAbout]);
+    },[]);
 
     const getAbout= () =>{
         setabout(about);

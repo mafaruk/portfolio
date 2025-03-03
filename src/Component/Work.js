@@ -6,6 +6,7 @@ const Work = (props) =>{
     const [work,setWork] = useState(Data.work);
     var a="0";
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getWork();
         
