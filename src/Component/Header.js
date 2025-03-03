@@ -3,7 +3,7 @@ import {Row} from 'reactstrap';
 import Data from './data/data.json'
 import Navbar from './Navbar';
 import SocialIcon from './SocialIcon';
-import headshot from "./Images/HeadShotCl1.jpg";
+import headshot from "./Images/day_desert.webp";
 const Header=(props)=>{
     const imageUrl = headshot;
     const [header, setheader] = useState(Data);
@@ -26,7 +26,7 @@ const Header=(props)=>{
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             width: 'max-width',
-            height: '100%'
+            height: '100%',
             }}>
                 <Row className="mr-5" >
                     

@@ -8,16 +8,16 @@ import Education from './Component/Education';
 import Project from './Component/Project';
 import Certificate from './Component/Certificate';
 import FundamentalSkills from './Component/FundamentalSkills';
-import Footer from './Component/Footer'
+import Footer from './Component/Footer';
 function App() {
   
-  const color1 = 'rgb(126, 153, 163)';//rgba(255, 255, 255,1)
-  const color2= 'rgb(247, 247, 247)';//rgb(49, 21, 115)
+  const color1 = 'rgb(142, 105, 77)';//rgba(255, 255, 255,1)
+  const color2= 'rgb(251, 221, 165)';//rgb(49, 21, 115)
  
 
   
   return (
-    <div style={{ backgroundColor:color2, padding:'1%', paddingTop:'0' }}>
+    <div style={{ backgroundColor:'rgb(245, 211, 149)', padding:'1%', paddingTop:'0',  }}>
     
       
       <Row>

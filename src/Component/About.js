@@ -21,13 +21,12 @@ const About = (props) => {
                     <CardBody >
                     <Row>
                         <Col md={3}>
-                            <CardTitle tag="h1" className="" > <b style={{backgroundColor:props.Highlight, color:props.Color}}>About Me</b></CardTitle>
+                            <CardTitle tag="h1" className="" > <b style={{backgroundColor:props.Highlight, color:props.Color}}>Who am I?</b></CardTitle>
                         </Col>
                         <Col>
                         <CardText className="text-justify my-3">
                     <p>Hi,</p>
-                    <p>This is <b style={{backgroundColor:props.Highlight, color:props.Color}}>{about}.</b> </p>
-                    <p>A results-driven Java Full Stack Developer with 4+ years of experience in designing, developing, and deploying scalable applications. Proficient in Java, Spring Boot, Microservices, and frontend technologies like ReactJS. Strong expertise in Agile methodologies, CI/CD, and database management. Passionate about delivering high-quality software solutions that align with business objectives.</p>
+                    <p>I am <b style={{backgroundColor:props.Highlight, color:props.Color}}>{about}.</b> A results-driven Java Full Stack Developer with 4+ years of experience in designing, developing, and deploying scalable applications. Proficient in Java, Spring Boot, Microservices, and frontend technologies like ReactJS. Strong expertise in Agile methodologies, CI/CD, and database management. Passionate about delivering high-quality software solutions that align with business objectives.</p>
                         </CardText>
                         </Col>
                     </Row>
