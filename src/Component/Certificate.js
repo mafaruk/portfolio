@@ -7,8 +7,6 @@ import imglij from './Images/cert/linkedin_jira.png';
 import imglim from './Images/cert/linkedin_maven.png';
 import imglis from './Images/cert/linkedin_dataAna.png';
 import imglid from './Images/cert/linkedin_sqlda.png';
-import imghj from './Images/cert/hackerrank_Java.png';
-import imghs from './Images/cert/hackerrank_sql.png';
 import imgsj from './Images/cert/Standford_json.png';
 import imgup1 from './Images/cert/udemy_python2.jpg';
 import imgup2 from './Images/cert/udemy_python1.jpg';
@@ -44,8 +42,6 @@ const Certificate=(props)=>{
         imglim ,
         imglis ,
         imglid ,
-        imghj  ,
-        imghs  ,
         imgsj  ,
         imgup1 ,
         imgup2 ,
