@@ -11,7 +11,7 @@ const Header=(props)=>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getheader();
-    },[]);
+    },);
 
     const getheader=()=>{
         setheader(header);

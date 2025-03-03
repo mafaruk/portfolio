@@ -7,7 +7,7 @@ const About = (props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getAbout();
-    },[]);
+    },);
 
     const getAbout= () =>{
         setabout(about);

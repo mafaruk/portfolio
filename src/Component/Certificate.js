@@ -22,7 +22,7 @@ const Certificate=(props)=>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getCert();
-    },[]);
+    },);
 
     const getCert=()=>{
         setCert(cert);

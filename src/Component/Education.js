@@ -6,7 +6,7 @@ const Education=( props)=>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=>{
         getEdu();
-    },[]);
+    },);
 
     const getEdu=()=>{
         setEdu(edu);

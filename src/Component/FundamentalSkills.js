@@ -8,7 +8,7 @@ const FundamentalSkills= (props) =>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=>{
         getSkills();
-    },[]);
+    },);
 
     const getSkills=()=>{
         setSkills(skills);

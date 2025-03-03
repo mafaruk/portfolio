@@ -8,7 +8,7 @@ const Project=(props)=>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=>{
         getProject();
-    },[])
+    },)
 
     const getProject=()=>{
         setProject(project);

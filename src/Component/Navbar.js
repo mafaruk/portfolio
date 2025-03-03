@@ -10,7 +10,7 @@ const Navbar =(props)=>{
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         getheader();
-    },[]);
+    },);
 
     const getheader=()=>{
         setnavBar(navBar);
