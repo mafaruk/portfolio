@@ -36,7 +36,7 @@ const Header=(props)=>{
                         </div>
                         <div className ="mx-5"style={{float:'right'}}>
                         <h1 className ="mt-5"><b style={{color:props.Highlight}}>{"Hi, I'm " +header.name}</b></h1>
-                        <p >a <b style={{backgroundColor:props.Highlight, color:props.Color,textAlign:'left'}}>{header.position }</b> based in India, <br />who believes in buiding things for social & Environmental good.</p>
+                        <p >A <b style={{backgroundColor:props.Highlight, color:props.Color,textAlign:'left'}}>{header.position }</b> based in India, <br />who believes in buiding things for social & Environmental good.</p>
                         <Navbar Color={props.content} BackGround={props.BackGround} />
                         </div>
                         

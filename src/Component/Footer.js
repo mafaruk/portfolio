@@ -20,7 +20,7 @@ const Footer = (props) =>{
     <div style={style} className="text-center mt-3" >
         <h5>
 
-            you can reach out to me at
+            You can reach out to me at
         </h5>
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
         <Nav pills style={{ display: "flex", gap: "10px", padding: "10px" }}>
