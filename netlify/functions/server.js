@@ -3,35 +3,28 @@ import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const server = require('../../dist/server/server.js').default;
 
-function getRequestUrl(event) {
-  const protocol = event.headers['x-forwarded-proto'] || 'https';
-  const host = event.headers['x-forwarded-host'] || event.headers.host || 'localhost';
-  const path = event.path || '/';
-  return `${protocol}://${host}${path}`;
+function toHeaders(headers) {
+  const result = {};
+  for (const [key, value] of headers.entries()) {
+    result[key] = value;
+  }
+  return result;
 }
 
-function getHeaders(event) {
-  return Object.entries(event.headers || {}).reduce((acc, [key, value]) => {
-    if (typeof value === 'string') acc[key] = value;
-    return acc;
-  }, {});
-}
-
-export const handler = async (event) => {
-  const request = new Request(getRequestUrl(event), {
+export async function handler(event) {
+  const url = new URL(event.path || '/', `https://${event.headers.host || 'localhost'}`);
+  const request = new Request(url, {
     method: event.httpMethod || 'GET',
-    headers: getHeaders(event),
+    headers: event.headers || {},
     body: event.body || undefined,
   });
 
   const response = await server.fetch(request, {}, {});
-
-  const headers = Object.fromEntries(response.headers.entries());
   const body = await response.text();
 
   return {
     statusCode: response.status,
-    headers,
+    headers: toHeaders(response.headers),
     body,
   };
-};
+}
