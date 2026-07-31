@@ -3,9 +3,9 @@
   publish = "dist/client"
 
 [functions]
-  directory = "dist/server"
+  directory = ".netlify/v1/functions"
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/server"
+  to = "/.netlify/v1/functions"
   status = 200
