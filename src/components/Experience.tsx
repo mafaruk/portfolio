@@ -30,7 +30,7 @@ export function Experience() {
                   job.current
                     ? "aurora border-brand/50 bg-surface"
                     : "border-border bg-surface/40"
-                } hover:glow-ring hover:aurora`}
+                } hover:glow-ring hover:aurora active:glow-ring active:aurora`}
               >
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <h3 className="font-display text-xl font-bold">

@@ -69,20 +69,20 @@ export function Nav() {
           aria-label="Toggle menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground md:hidden"
+          className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground md:hidden active:aurora"
         >
           {open ? "Close" : "Menu"}
         </button>
       </nav>
 
       {open && (
-        <ul className="space-y-1 border-t border-border bg-background/95 px-5 py-3 backdrop-blur-xl md:hidden">
+        <ul className="space-y-1 border-t border-border bg-background/95 px-5 py-3 backdrop-blur-xl md:hidden ">
           {navSections.map((s) => (
             <li key={s.id}>
               <a
                 href={`#${s.id}`}
                 onClick={() => setOpen(false)}
-                className="block rounded-md px-2 py-2 text-sm text-muted-foreground"
+                className="block rounded-md px-2 py-2 text-sm text-muted-foreground active:aurora"
               >
                 {s.label}
               </a>

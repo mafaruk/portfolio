@@ -20,7 +20,7 @@ export function Skills() {
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((group, i) => (
             <Reveal key={group.label} delay={i * 60}>
-              <article className="h-full rounded-2xl border border-border bg-background/60 p-6 transition-colors hover:aurora">
+              <article className="h-full rounded-2xl border border-border bg-background/60 p-6 transition-colors hover:aurora active:aurora">
                 <h3 className="font-display text-sm font-semibold tracking-wide text-brand-glow uppercase">
                   {group.label}
                 </h3>

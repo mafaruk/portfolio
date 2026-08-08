@@ -32,7 +32,7 @@ export function Contact() {
                 href={l.href}
                 target={l.href.startsWith("http") ? "_blank" : undefined}
                 rel="noreferrer"
-                className="group rounded-2xl border border-border bg-surface/60 p-5 transition-colors hover:border-brand/60 hover:-translate-y-0.5"
+                className="group rounded-2xl border border-border bg-surface/60 p-5 transition-colors hover:border-brand/60 hover:-translate-y-0.5 active:aurora"
               >
                 <p className="text-xs tracking-wide text-muted-foreground uppercase">
                   {l.label}
@@ -49,7 +49,7 @@ export function Contact() {
               href={resumeAsset}
               target="_blank"
               rel="noreferrer"
-              className="inline-block rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
+              className="inline-block rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 active:-translate-y-0.5"
             >
               Download resume (PDF)
             </a>

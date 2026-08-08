@@ -46,13 +46,13 @@ export function Hero() {
               href={resumeAsset}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
+              className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 active:-translate-y-0.5"
             >
               Download resume
             </a>
             <a
               href="#contact"
-              className="rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
+              className="rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary active:aurora"
             >
               Get in touch
             </a>
