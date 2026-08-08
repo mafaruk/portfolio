@@ -54,7 +54,7 @@ export const skillGroups = [
   },
   {
     label: "Cloud",
-    items: ["AWS", "EC2", "S3", "IAM", "CloudWatch", "ECS", "ECR"],
+    items: ["AWS EC2", "AWS S3", "AWS IAM", "AWS CloudWatch", "AWS ECS", "AWS ECR" , "AWS Lambda"],
   },
   {
     label: "Architecture",
@@ -63,6 +63,7 @@ export const skillGroups = [
       "REST APIs",
       "Distributed Systems",
       "Legacy Modernization",
+      "Desktop Application"
     ],
   },
   {

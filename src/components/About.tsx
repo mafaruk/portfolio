@@ -38,7 +38,7 @@ export function About() {
               {competencies.map((c) => (
                 <li
                   key={c}
-                  className="rounded-full border border-border bg-surface px-3 py-1.5 text-xs text-muted-foreground"
+                  className="rounded-full border border-border bg-surface px-3 py-1.5 text-xs text-muted-foreground hover:border-brand/60 active:aurora"
                 >
                   {c}
                 </li>
